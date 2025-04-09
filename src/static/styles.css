@@ -199,3 +199,34 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participant-info {
+  background-color: #f0f8ff; /* Light blue background for participant info */
+  padding: 15px;
+  border: 1px solid #b3d9ff; /* Subtle border */
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: #004080; /* Dark blue text */
+}
+
+body.dark-mode .participant-info {
+  background-color: #1e3a5f; /* Darker blue for dark mode */
+  border-color: #3a5f80;
+  color: #cce7ff; /* Light text for dark mode */
+}
+
+.participant-info h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #003366; /* Slightly darker blue for headings */
+}
+
+body.dark-mode .participant-info h4 {
+  color: #cce7ff; /* Light text for dark mode headings */
+}
+
+.participant-info p {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
